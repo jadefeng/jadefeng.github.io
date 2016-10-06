@@ -1,10 +1,6 @@
-Identity by HTML5 UP
-
 Quick landing page for Jade Feng @ www.jadenator.com.
 
-Credits -
-AJ
-aj@lkn.io | @ajlkn
+Identity by Identity by HTML5 UP, AJ @ajlkn
 
 Credits:
 
