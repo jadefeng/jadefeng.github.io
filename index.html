@@ -22,6 +22,8 @@
 							<span class="avatar"><img src="images/avatar.png" alt="" id="avatar"/></span>
 							<h1>Jade Feng</h1>
 							<p>Product Manager</p>
+							<p>Building things that matter.<br>
+							How can I help you?</p>
 						</header>
 						
 						<hr />
@@ -39,8 +41,10 @@
 
 
 						<hr />
+						<form method="post" id="gform" class="contact-form" action="https://script.google.com/macros/s/AKfycbzhkl2YcyXl25JlJhMG2VGOs5WczkFLCfK0HjgdE0Y7VY4Livc/exec">
+
 						<h2>Say Hello!</h2>
-						<form method="post" class="contact-form" action="https://script.google.com/macros/s/AKfycbzhkl2YcyXl25JlJhMG2VGOs5WczkFLCfK0HjgdE0Y7VY4Livc/exec">
+
 							<div class="field">
 								<input type="text" name="name" id="name" placeholder="Name" />
 							</div>
@@ -70,9 +74,13 @@
 								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
 							</div>
 							<ul class="actions">
-								<li><button>Send Away!</button></li>
+								<li><input type="submit" placeholder="Send Away!"/> </li>
 							</ul>
 						</form>
+
+						<div style="display:none;" id="thankyou_message">
+						<h2><em>Thank you</em> for contacting me! <br> I'll get back to you in a jiffy!</h2>
+						</div>
 
 					</section>
 
@@ -93,6 +101,11 @@
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
 			</script>
+
+			<!-- To use AJAX to send the contact email -->
+			<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
+	
 
 	</body>
 </html>
