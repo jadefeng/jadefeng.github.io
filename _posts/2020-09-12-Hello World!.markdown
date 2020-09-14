@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Hello World!"
-date: 2020-09-13 13:32:20 +0300
+date: 2020-09-12
 description: 2020 Bucketlist Item done!.
-img:  hello-world.png # Add image post (optional)
-tags: [HelloWorld]
+img:  hello-world.png 
+tags: [HelloWorld, blog]
 
 ---
 
@@ -23,7 +23,7 @@ My other favorite life quote is:
 
 Want to learn a bit more about me? Here's my [LinkedIn][LinkedIn-url] and my [Medium blogs][Medium-url].
 
-![Sweetpea Purrito |]({{site.baseurl}}/assets/img/sweetpea-purrito.png){:width="500px"}
+![Sweetpea Purrito]({{site.baseurl}}/assets/img/sweetpea-purrito.png){:width="500px"}
 <br>
 "Sweetpea says hi!"
 
