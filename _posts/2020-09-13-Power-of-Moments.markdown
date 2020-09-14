@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reading: Power of Moments"
+title: "Reading: The Power of Moments - Chip and Dan Heath"
 date: 2020-09-13
 description: TLDR; The Power Of Moments.
 img:  books/power-of-moments1.png 
