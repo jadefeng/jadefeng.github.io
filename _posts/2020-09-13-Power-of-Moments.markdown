@@ -102,6 +102,7 @@ tags: [reading]
 *   Purpose is more important than passion. Passion is like fire that can be powerful but misused. 
 *   Purposes can bring people together and make them “work through the suffering” and build stronger bonds 
 
-# It is more important to have purpose. Connecting to meaning helps people find their purpose, and strong purpose can make shared meaning 
+# It is more important to have purpose. 
+## Connecting to meaning helps people find their purpose, and strong purpose can make shared meaning 
 
 Ask your customers and stakeholders **what is their purpose**, not just our interpretation of what is right and what we think the solution might be. “What matters to you?” 
