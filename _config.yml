@@ -9,9 +9,9 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Jade Feng # add your name
 author-img: jade-feng.jpg # add your photo
-about-author: Hello World! <br> I'm Jade, a product manager based in San Francisco! 
+about-author: G'day World! <br> I'm Jade, an Aussie who moved to San Francisco to pursue career and adventure! 
 blog-topics-1: I write about product management, <br> projects I'm working on, <br> books I'm reading, and <br> things I pick up along the way.
-# blog-topics-2: I love reading "books that should have been articles", so I upload my notes here to save you time from having to read it all.
+blog-topics-2: I love to read, play horse polo, and <a href="https://www.youtube.com/watch?v=7N3pl6DAONU" target="_blank">dance ballet</a>.
 social-twitter: fengjade
 # social-facebook: # add your Facebook handle
 social-github: jadefeng # add your Github handle
