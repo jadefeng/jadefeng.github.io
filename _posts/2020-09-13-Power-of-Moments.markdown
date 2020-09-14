@@ -8,9 +8,6 @@ tags: [reading]
 
 ---
 
-# The Power Of Moments: Why Certain Experiences Have Extraordinary Impact
-## by Chip Heath and Dan Heath
-
 ![Power Of Moments]({{site.baseurl}}/assets/img/books/power-of-moments2.png){:width="500px"}
 
 ## Crystallization of discontent
