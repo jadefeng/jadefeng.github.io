@@ -26,23 +26,25 @@ tags: [reading]
 3. Audience discovers truth themselves - becomes their own insight 
 
 
-# “Let them trip over the truth.”
+## “Let them trip over the truth.”
 *   Being a salesman vs letting them trickle the truth. Let them understand the problem. 
 *   Self insight only comes from stretching yourself - putting yourself out there where you can risk an outcome 
 
 
-# Positive peaks are more memorable that negative peaks 
+## Positive peaks are more memorable that negative peaks 
 *   Mentors create a productive level of stretch 
 *   Making yourself vulnerable. Taking a risk - helps you also understand risk about yourself 
 
 
-## Mentors push. Mentees stretch. 
+# Mentors push. Mentees stretch. 
+
+## How to be a good mentor:
 *   “I’m giving you these comments because I have high expectations and I know you can reach them.” vs. “You should make these changes”. The former is more impactful.
 *   This re-wires how people take feedback. It’s a push to stretch. 
 *   Tension of mentoring: over and under protecting them 
 
 
-# Learn to embrace failure. Ask regularly: “What did you fail at this week?”
+## Learn to embrace failure. Ask regularly: “What did you fail at this week?”
 *   Push to stretch. Make it part of a casual conversation rather than an end. 
 *   Willingness to put yourself in a place that you can fail 
 *   The goal is LEARNING 
@@ -57,16 +59,14 @@ tags: [reading]
 
 > Learn to use gamification strategies: “level up” strategy to adapt your goals 
 
-<code>
-Example: I have a goal to learn how to DJ and mix music.
+### Example: I have a goal to learn how to DJ and mix music.
 *   Level 1: follow a YouTube video on DJ skills
 *   Level 2: play something that I can upload on Mixcloud 
 *   Level 3: play at a friend’s birthday or house party
-</code>
 
 > Learn to create moments of pride for everyone
 
-Learn how to proactively create intermediate milestones for yourself and others. Create moments of pride is extremely impactful.
+# Learn how to proactively create intermediate milestones for yourself and others. Create moments of pride is extremely impactful.
 
 ## Managing moments of fear:
 *   Your journey goes through Milestones, Peaks, and Transitions. 
