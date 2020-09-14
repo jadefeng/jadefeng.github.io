@@ -9,9 +9,9 @@ I'm going to write about:
 
 ## Features and credits
 
-- [Flexible Jekyll](http://artemsheludko.com/flexible-jekyll/)
+- [Flexible Jekyll](https://artemsheludko.com/flexible-jekyll/)
 - [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
+- [Font Awesome](https://fontawesome.io/)
 - [Disqus](https://disqus.com/)
 - [Analytics](https://analytics.google.com/analytics/web/)
 - Support Emoji
