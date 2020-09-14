@@ -15,7 +15,7 @@ tags: [reading]
 
 ## Crystallization of discontent
 
-*   Shame and disgust are powerful motivators “what are we doing - are we even human? Eating each other’s shit.”
+*   Shame and disgust are powerful motivators “what are we doing - are we even human?”
 *   Crystallization of discontent is a specific moment that sparks a realization that something isn’t okay. 
 *   Something that is an engineered moment that can be powerful. 
 
