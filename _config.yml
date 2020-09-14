@@ -1,0 +1,39 @@
+title: Jade says G'day! 
+description: > # this means to ignore newlines until "baseurl:"
+  Hi there! I'm Jade, an Aussie product manager in San Francisco. I write about product management, life in San Francisco, and photos I take while travelling. I write product specs and blogs.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Jade Feng # add your name
+author-img: jade-feng.jpg # add your photo
+about-author: Hello World! <br> I'm Jade, a product manager based in San Francisco! 
+blog-topics-1: I write about tech, product management, projects I'm working on, books I'm reading, and interesting things I learn along the way.
+# blog-topics-2: I love reading "books that should have been articles", so I upload my notes here to save you time from having to read it all.
+social-twitter: fengjade
+# social-facebook: # add your Facebook handle
+social-github: jadefeng # add your Github handle
+social-linkedin: jadefeng
+social-email: hello@jadenator.com
+social-medium: jadenator
+
+# Disqus
+# discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+# analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  # - jekyll-crosspost-to-medium
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

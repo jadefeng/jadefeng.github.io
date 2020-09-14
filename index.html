@@ -1,115 +1,19 @@
-<!DOCTYPE HTML>
+---
+layout: main
+---
+{% for post in paginator.posts %}
+<article class="post">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% else %}
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+  </div>
+</article>
+{% endfor %}
 
-<html>
-	<head>
-		<title>Jade Feng</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="title" content="Jade Feng. Product Manager." />
-		<meta name="thumbnail" content="images/avatar.png" />
-		<meta name=”description” content=”Product manager. Passionate about user-centric design, data-driven experimentation to solve meaningful problems, agile development, coffee, and cute dogs.“>
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<!-- <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script> -->
-
-	</head>
-	<body class="is-loading">
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.png" alt="" id="avatar"/></span>
-							<h1>Jade Feng</h1>
-							<p>Product Manager</p>
-							<p>I build things that matter.<br>
-							How can I help you?</p>
-						</header>
-						
-						<hr />
-						
-						<div>
-							<ul class="icons">
-								<li><a href="https://github.com/jadefeng" target="_blank" class="fa-github">Github</a></li>
-								<li><a href="https://linkedin.com/in/jadefeng" target="_blank" class="fa fa-linkedin-square">LinkedIn</a></li>
-								<li><a href="https://twitter.com/fengjade" target="_blank" class="fa-twitter">Twitter</a></li>
-								<li><a href="https://instagram.com/lajadenator" target="_blank" class="fa-instagram">Instagram</a></li>
-								<li><a href="https://facebook.com/jadefeng" target="_blank" class="fa-facebook">Facebook</a></li>
-								<li><a href="mailto:hello@jadenator.com" target="_blank" class="fa-envelope">Facebook</a></li>
-
-							</ul>
-						</div>
-						<hr class="hidden" />
-
-				<h2 class="hidden">Say Hello!</h2>
-
-
-				<form action="https://getsimpleform.com/messages?form_api_token=a7ee54613847726352434deb0d9486b6" method="post" class="hidden">
-				  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-				  <input type='hidden' name='redirect_to' value='http://jadenator.com' />
-				  <!-- all your input fields here.... -->
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<div class="select-wrapper">
-									<select name="who" id="who">
-										<option value="friend">Friend</option>
-										<option value="family">Family</option>
-										<option value="acquaintance">Acquaintance</option>
-										<option value="stranger">Curious Stranger</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-							</div>
-							<div class="field">
-								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-							</div>
-
-							<ul class="actions">
-								<li><input type="submit" id="form-button-submit" value="contact form" placeholder="Send Away!" /> </li>
-							</ul>
-
-						</form>
-      
-
-					</section>
-
-				<!-- Footer -->
-					<footer id="footer" >
-						<ul class="copyright">
-							<li>&copy; Jade Feng 2018</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-
-				}
-
-			</script>
-
-			<!-- To use AJAX to send the contact email -->
-			<!-- <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> -->
-
-
-
-	
-
-	</body>
-</html>
+{% include pagination.html %}
