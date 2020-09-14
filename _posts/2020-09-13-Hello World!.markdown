@@ -10,9 +10,9 @@ tags: [HelloWorld]
 
 Hi there! 
 
-Very excited to have you come across my website! Maintaining a personal blog has been a bucket list item for several years now. The number of times I've written a personal OKR to get this up an running is definitely more times than I'd care to admit. 
+Very excited to have you come across my website! Maintaining a personal blog has been a bucket list item for several years now. The number of times I've written a personal OKR to get this website up and running more times than I'd care to admit. 
 
-So now we're finally here, with a hosted live website built by yours truly, with help from some useful resources on the internet.
+So now we're finally here, with a live website built by yours truly!!
 
 ## TLDR about me
 My favorite life quote is:
@@ -40,3 +40,4 @@ Want to learn a bit more about me? Here's my [LinkedIn][LinkedIn-url] and my [Me
 [Flex-Jekyll]: https://jekyllthemes.io/theme/flexible-jekyll
 [Markdownify-docs]: https://sourceforge.net/p/markdownify/wiki/markdown_syntax/
 [Github-Jekyll]: https://docs.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll
+
